@@ -1,1 +1,1 @@
-Resources to find mentees
+Resources for "Mentee or Client" program.
