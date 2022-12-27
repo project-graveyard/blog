@@ -1,1 +1,1 @@
-Resources for "Mentee or Client" program.
+CodeReviewShop Blog
