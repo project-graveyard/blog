@@ -1,0 +1,216 @@
+baseURL = 'http://hesed-server/'
+
+# Want to change the language code to en-gb, but theme does not support it.
+# Changing the language code to one that is not defined, removes the attribution at the footer
+languageCode = 'en-us'
+defaultContentLanguage = "en-us"
+
+timeZone = "Africa/Accra"
+title = 'CodeReviewShop Blog'
+enableRobotsTXT = true
+enableEmoji = true
+theme = "hugo-theme-luna"
+timeout = 60_000
+enableGitInfo = true
+paginate = 5
+summaryLength = 70
+canonifyURLs = false
+relativeURLs = false
+
+[permalinks]
+posts = "/:year/:month/:day/:slug.html"
+pages = "/:slug.html"
+
+[author]
+name = "DaveSaah"
+
+[frontmatter]
+lastmod = [
+  ":git",
+  "lastmod",
+  ":fileModTime",
+  "date",
+  "publishDate",
+  ":default"
+]
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[imaging]
+resampleFilter = "CatmullRom"
+quality = 95
+anchor = "smart"
+
+[caches.getresource]
+dir = ":resourceDir/_gen"
+maxAge = "24h"
+
+[privacy.googleAnalytics]
+anonymizeIP = true
+
+[privacy.youtube]
+privacyEnhanced = true
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
+
+
+[[menu.main]]
+name = "Home"
+weight = 10
+identifier = "home"
+url = "/"
+
+  [menu.main.params]
+  icon = "eva eva-home"
+
+[[menu.main]]
+name = "About"
+weight = 30
+identifier = "about"
+url = "/about/"
+
+  [menu.main.params]
+  icon = "eva eva-info-outline"
+
+[[menu.main]]
+name = "Links"
+weight = 30
+identifier = "links"
+url = "/links/"
+
+  [menu.main.params]
+  icon = "eva eva-people"
+
+[[menu.main]]
+name = "Archives"
+weight = 40
+identifier = "archives"
+url = "/archives/"
+
+  [menu.main.params]
+  icon = "eva eva-bar-chart"
+
+[[menu.main]]
+name = "Search"
+weight = 999
+identifier = "search"
+url = "/search/"
+
+  [menu.main.params]
+  icon = "eva eva-search"
+
+
+[markup.highlight]
+style = "dracula"
+guessSyntax = true
+tabWidth = 4
+lineNumbersInTable = true
+lineNos = true
+codeFences = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+publicCDN = ""
+topTitle = false
+sitemap = true
+themeColor = "#077df2"
+blackAndWhite = false
+headlineCounter = false
+fixedNav = false
+font = 'Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif'
+since = "2022"
+autoDarkMode = true
+qrcodeAPI = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="
+i18nlist = true
+imageZoom = true
+lazyload = true
+googleTranslate = false
+pangu = true
+search = true
+lastmod = true
+readingTime = true
+wordCount = false
+pjax = true
+pwa = true
+katex = true
+backtop = true
+featuredImageHeight = "42%"
+defaultFeaturedImage = false
+author = "DaveSaah"
+keywords = [ "Code", "Review", "Tech blog", "Programming" ]
+description = "Code Review Shop Blog"
+
+  [params.announcement]
+  enabled = true
+  file = "Announcement.md"
+
+  [params.comments]
+  enabled = false
+
+  [params.rss]
+  enabled = true
+  fullText = true
+
+  [params.console]
+  enabled = true
+  rightColor = "#feb462"
+  rightText = "Powered by Hugo ❤ DaveSaah"
+
+  [params.customScript]
+  enabled = false
+  pjax = true
+
+  [params.runTime]
+  enabled = false
+
+  [params.outdatedInfoWarning]
+  enabled = true
+  day = 90
+
+  [params.share]
+  twitter = true
+  copyLinkText = true
+  qrcode = false
+  facebook = false
+  weibo = false
+
+  [params.license]
+  enabled = false
+
+  [params.twitter]
+  enabled = false
+
+  [params.bionicReading]
+  enabled = true
+  autoBionic = false
+  skipLinks = false
+  excludeWords = [ ]
+  excludeNodeNames = [ ]
+  excludeClasses = [ "github" ]
+
+  [params.toc]
+  enabled = true
+  wordCount = 100
+
+  [params.HugoEncrypt]
+  enabled = false
+
+  [params.imageProcessing]
+  cover = true
+  content = true
+  autoResize = [ 1_080, 1_440 ]
+  webp = true
+
+  [params.opengraph]
+  image = "featured.png"
+
+
+[build]
+noJSConfigInAssets = true
