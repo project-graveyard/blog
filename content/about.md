@@ -14,7 +14,7 @@ We're programmers, we don't have to work hard, we need only to be smart.
 
 ![codereviewshop](/images/logo.webp)
 
-CodeReviewShop is my medium of giving back to the community. I do not just want to see people getting by with programming, I want to see people grow with a solid foundation of the concepts and tools we use in the industry. For an overview of our services, check out our [website](https://codereviewshop.web.app).
+CodeReviewShop is my medium of giving back to the community. I do not just want to see students getting by with programming, I want to see students grow with a solid foundation of the concepts and tools we use in the industry. For an overview of our services, check out our [website](https://codereviewshop.web.app).
 
 {{< notice success >}}
 Take small steps, leave no gaps, everything makes sense.
