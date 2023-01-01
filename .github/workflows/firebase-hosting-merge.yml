@@ -6,34 +6,36 @@ name: Deploy to Firebase Hosting on merge
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Git Checkout
+        uses: actions/checkout@v2
         with:
-          submodules: recursive
           fetch-depth: 0
+          submodules: true
+      
+      - name: Set git config core.quotepath false
+        run: git config --global core.quotepath false
+        
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+      
+      - name: Install Luna Theme
+        run: cd themes/hugo-theme-luna && yarn install --production
+      
+      - name: Install PostCSS-CLI
+        run: npm install postcss-cli -g
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-          cache: 'npm'
-          cache-dependency-path: './package-lock.json'
-      
-      - name: Run npm commands
-        working-directory: 'themes/hugo-theme-luna'
-        run: npm ci
       
       - name: Build Hugo Site
-        run: hugo --minify
+        run: echo "HUGO_VERSION -> $HUGO_VERSION" && hugo --gc --minify --cleanDestinationDir
       
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
