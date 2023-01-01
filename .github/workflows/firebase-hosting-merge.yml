@@ -26,14 +26,14 @@ jobs:
         with:
           node-version: '16'
           cache: 'npm'
-          # The action defaults to search for the dependency file (package-lock.json,
-          # npm-shrinkwrap.json or yarn.lock) in the repository root, and uses its
-          # hash as a part of the cache key.
-          # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-data
-          cache-dependency-path: 'themes/hugo-theme-luna/package-lock.json'
+          cache-dependency-path: '**/package-lock.json'
       
-      - run: npm ci
-      - run: hugo --minify
+      - name: Run npm commands
+        working-directory: 'themes/hugo-theme-luna'
+        run: npm ci
+      
+      - name: Build Hugo Site
+        run: hugo --minify
       
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
