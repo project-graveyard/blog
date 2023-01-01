@@ -1,4 +1,4 @@
-baseURL = 'http://hesed-server/'
+baseURL = 'https://codereviewblog.web.app'
 
 # Want to change the language code to en-gb, but theme does not support it.
 # Changing the language code to one that is not defined, removes the attribution at the footer
