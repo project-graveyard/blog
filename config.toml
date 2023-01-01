@@ -145,7 +145,7 @@ featuredImageHeight = "42%"
 defaultFeaturedImage = false
 author = "DaveSaah"
 keywords = [ "Code", "Review", "Tech blog", "Programming" ]
-description = "Code Review Shop Blog"
+description = "A space for articles, announcements and event notes by CodeReviewShop"
 
   [params.announcement]
   enabled = true
