@@ -1,5 +1,5 @@
 name: Deploy to Firebase Hosting on merge
-'on':
+"on":
   push:
     branches:
       - main
@@ -13,34 +13,34 @@ jobs:
         with:
           fetch-depth: 0
           submodules: true
-      
+
       - name: Set git config core.quotepath false
         run: git config --global core.quotepath false
-        
+
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '16.x'
-      
+          node-version: "16.x"
+
       - name: Install Luna Theme
         run: cd themes/hugo-theme-luna && yarn install --production
-      
+
       - name: Install PostCSS-CLI
         run: npm install postcss-cli -g
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: "latest"
           extended: true
-      
+
       - name: Build Hugo Site
         run: echo "HUGO_VERSION -> $HUGO_VERSION" && hugo --gc --minify --cleanDestinationDir
-      
+
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CODEREVIEWBLOG }}'
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_CODEREVIEWBLOG }}"
           channelId: live
           projectId: codereviewblog
