@@ -13,14 +13,6 @@ tags:
   - history
 ---
 
-<!--
-TODO:
-- Building a right perspective
-- Understanding from people who are in the field how things work and how you can be successful.
-- Some encouragement: "Don't allow people's insecurities become your limitations."
-- Programming terms.
--->
-
 ## Introduction
 
 Programming can mean different things to many people. To some, it is just a job; to others, it's a hobby; some probably don't care what this is all about, and that's fine too 😄.
