@@ -12,15 +12,6 @@ tags:
   - theory
 ---
 
-<!--
-TODO:
-- Building a right perspective
-- Understanding from people who are in the field how things work and how you can be successful.
-- Some encouragement: "Don't allow people's insecurities become your limitations."
-- Programming terms.
-- Data abstraction & problem solving.
--->
-
 Yesterday, we looked at how computers have evolved through the years. In this article, we will learn about how programming languages have progressed. But before we delve into the various categories and types of programming languages, let's look at what programming means.
 
 ## What is Programming
