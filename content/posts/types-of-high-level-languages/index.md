@@ -14,15 +14,6 @@ tags:
   - basics
 ---
 
-<!--
-TODO:
-- Building a right perspective
-- Understanding from people who are in the field how things work and how you can be successful.
-- Some encouragement: "Don't allow people's insecurities become your limitations."
-- Programming terms.
-- Data abstraction & problem solving.
--->
-
 ## What is a High-level Language
 
 High-level languages allow a programmer to write instructions for the computer to execute, independent of a particular type of computer. It abstracts the details of the computer from the programmer. Their syntax is more understandable by humans.
