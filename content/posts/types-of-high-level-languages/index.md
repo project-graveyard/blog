@@ -2,6 +2,7 @@
 title: "Types of High Level Languages"
 date: 2023-01-04T13:47:40Z
 draft: false
+featured_image: https://wallpapercave.com/wp/wp7457469.png
 toc: true
 categories:
   - "mentee or client"
