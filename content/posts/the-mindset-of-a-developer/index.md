@@ -13,12 +13,6 @@ tags:
   - newbie
 ---
 
-<!--
-TODO:
-- Programming terms.
-- Data abstraction & problem solving.
--->
-
 In this article, I want to share some advice from my experience on how you can grow into a successful software developer. These are some things that most people would not tell you; you mostly figure them out later in your journey. Before that, let me give you a headstart.
 
 {{< notice warn >}}
