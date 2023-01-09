@@ -19,8 +19,6 @@ refs:
 
 I wrote my first code in 2018 (It was in HTML). My first "Hello, World!" program was in BASIC in the same year. My software development journey has been self-taught. I learnt a lot by asking people for help, making use of Google, YouTube, documentations, as well as learning by trial and error. From BASIC, I learned Javascript, C++, Python, Java, and Go, just to name a few. From my experience, I realised that two fundamental skills are needed to be a good programmer.
 
-
-
 {{< notice info >}}
 **BASIC** stands for Beginners' All-purpose Symbolic Instruction Code
 {{< /notice >}}
@@ -31,10 +29,7 @@ These skills are {{< color "orange" "problem-solving" >}} and {{< color "orange"
 
 I define problem-solving as breaking down complex problems into simpler ones. Solving the simpler problems becomes the building blocks to solving the complex problem. There is no standard way of solving problems. However, the process involves understanding the problem, describing the requirements, and the steps needed to implement the solution.
 
-
 The thought process of problem-solving is primarily expressed as algorithms.
-
-
 
 {{< notice info >}}
 An algorithm is a sequence of intructions used to complete a task. It can be expressed in 3 forms: pseudocode, flowcharts, and actual code.
@@ -99,9 +94,7 @@ Can you identify more concepts in the example above?
 
 From the example above, we gave high-level descriptions of how we want to solve the problem of building a calculator. With the skill of abstract thinking, we looked at the problem on a larger scale than just writing code. We focused on why we needed to make certain decisions and how that will influence our programming style.
 
-
 With our thought processes clearly laid out, we can leverage our problem-solving skills to break down complex independent problems into simpler ones to solve. Realise that writing code is the last thing to be done.
-
 
 One of the many challenges I see beginners face is the temptation to write code before thinking about a solution. Trying to think of a solution while writing code simultaneously diverges the mind. In most instances, the person gets stuck. Here's my advice: Lay out an algorithm to solve the problem before writing code -- It will save you a lot of time and your program a lot of bugs.
 
@@ -109,9 +102,7 @@ One of the many challenges I see beginners face is the temptation to write code 
 
 There is more to problem-solving and abstract thinking than what is described in this article. Remember that these skills can be learnt and mastered through consistent practice.
 
-
 There are more skills and other types of thinking that will guide you on your software development journey. Such skills include convergent thinking, divergent thinking, critical thinking, creative thinking, testing, data structures and algorithms, etc.
-
 
 Building your problem-solving and abstract thinking skills is a good place to start.
 
