@@ -25,14 +25,7 @@ pages = "/:slug.html"
 name = "DaveSaah"
 
 [frontmatter]
-lastmod = [
-  ":git",
-  "lastmod",
-  ":fileModTime",
-  "date",
-  "publishDate",
-  ":default"
-]
+lastmod = [":git", "lastmod", ":fileModTime", "date", "publishDate", ":default"]
 
 [taxonomies]
 tag = "tags"
@@ -65,8 +58,8 @@ weight = 10
 identifier = "home"
 url = "/"
 
-  [menu.main.params]
-  icon = "eva eva-home"
+[menu.main.params]
+icon = "eva eva-home"
 
 [[menu.main]]
 name = "About"
@@ -74,8 +67,8 @@ weight = 30
 identifier = "about"
 url = "/about/"
 
-  [menu.main.params]
-  icon = "eva eva-info-outline"
+[menu.main.params]
+icon = "eva eva-info-outline"
 
 [[menu.main]]
 name = "Links"
@@ -83,8 +76,8 @@ weight = 30
 identifier = "links"
 url = "/links/"
 
-  [menu.main.params]
-  icon = "eva eva-people"
+[menu.main.params]
+icon = "eva eva-people"
 
 [[menu.main]]
 name = "Archives"
@@ -92,8 +85,17 @@ weight = 40
 identifier = "archives"
 url = "/archives/"
 
-  [menu.main.params]
-  icon = "eva eva-bar-chart"
+[menu.main.params]
+icon = "eva eva-bar-chart"
+
+[[menu.main]]
+name = "GitHub"
+weight = 80
+identifier = "github"
+url = "/github/"
+
+[menu.main.params]
+icon = "eva eva-github"
 
 [[menu.main]]
 name = "Search"
@@ -101,8 +103,8 @@ weight = 999
 identifier = "search"
 url = "/search/"
 
-  [menu.main.params]
-  icon = "eva eva-search"
+[menu.main.params]
+icon = "eva eva-search"
 
 
 [markup.highlight]
@@ -144,72 +146,76 @@ backtop = true
 featuredImageHeight = "42%"
 defaultFeaturedImage = false
 author = "DaveSaah"
-keywords = [ "Code", "Review", "Tech blog", "Programming" ]
+keywords = ["Code", "Review", "Tech blog", "Programming"]
 description = "A space for articles, announcements and event notes by CodeReviewShop"
 
-  [params.announcement]
-  enabled = true
-  file = "Announcement.md"
+[params.announcement]
+enabled = true
+file = "Announcement.md"
 
-  [params.comments]
-  enabled = false
+[params.comments]
+enabled = false
 
-  [params.rss]
-  enabled = true
-  fullText = true
+[params.rss]
+enabled = true
+fullText = true
 
-  [params.console]
-  enabled = true
-  rightColor = "#feb462"
-  rightText = "Powered by Hugo ❤ DaveSaah"
+[params.console]
+enabled = true
+rightColor = "#feb462"
+rightText = "Powered by Hugo ❤ DaveSaah"
 
-  [params.customScript]
-  enabled = false
-  pjax = true
+[params.customScript]
+enabled = false
+pjax = true
 
-  [params.runTime]
-  enabled = false
+[params.runTime]
+enabled = false
 
-  [params.outdatedInfoWarning]
-  enabled = true
-  day = 90
+[params.outdatedInfoWarning]
+enabled = true
+day = 90
 
-  [params.share]
-  twitter = true
-  copyLinkText = true
-  qrcode = false
-  facebook = false
-  weibo = false
+[params.share]
+twitter = true
+copyLinkText = true
+qrcode = false
+facebook = false
+weibo = false
 
-  [params.license]
-  enabled = false
+[params.license]
+enabled = false
 
-  [params.twitter]
-  enabled = false
+[params.github]
+id = "DaveSaah"
+minStars = 0
 
-  [params.bionicReading]
-  enabled = true
-  autoBionic = false
-  skipLinks = false
-  excludeWords = [ ]
-  excludeNodeNames = [ ]
-  excludeClasses = [ "github" ]
+[params.twitter]
+enabled = false
 
-  [params.toc]
-  enabled = true
-  wordCount = 100
+[params.bionicReading]
+enabled = true
+autoBionic = false
+skipLinks = false
+excludeWords = []
+excludeNodeNames = []
+excludeClasses = ["github"]
 
-  [params.HugoEncrypt]
-  enabled = false
+[params.toc]
+enabled = true
+wordCount = 100
 
-  [params.imageProcessing]
-  cover = true
-  content = true
-  autoResize = [ 1_080, 1_440 ]
-  webp = true
+[params.HugoEncrypt]
+enabled = false
 
-  [params.opengraph]
-  image = "featured.png"
+[params.imageProcessing]
+cover = true
+content = true
+autoResize = [1_080, 1_440]
+webp = true
+
+[params.opengraph]
+image = "featured.png"
 
 
 [build]
