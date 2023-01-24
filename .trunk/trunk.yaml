@@ -14,7 +14,7 @@ lint:
     - markdownlint@0.33.0
     - taplo@0.7.0
     - oxipng@8.0.0
-    - gitleaks@8.15.2
+    - gitleaks@8.15.3
 runtimes:
   enabled:
     - go@1.18.3
