@@ -189,6 +189,7 @@ enabled = false
 [params.github]
 id = "DaveSaah"
 minStars = 0
+ids = ["DaveSaah", "CodeReviewShop"]
 
 [params.twitter]
 enabled = false
