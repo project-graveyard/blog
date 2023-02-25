@@ -8,6 +8,4 @@ layout: links
 
 {{< link url="https://davesaah.hashnode.dev" image="hashnode.png" title="Hashnode" desc="Want to read more about what I explore?" >}}
 
-{{< link url="https://www.twitch.tv/davesaah" image="twitch.png" title="Twitch" desc="Lazy programming stream" >}}
-
 {{< link url="https://linkedin.com/in/davesaah" image="linkedin.png" title="LinkedIn" desc="Connect with me" >}}
