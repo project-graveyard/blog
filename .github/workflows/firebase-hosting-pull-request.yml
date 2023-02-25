@@ -18,10 +18,10 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: "16.x"
+          node-version: "18.x"
 
       - name: Install Luna Theme
-        run: cd themes/hugo-theme-luna && yarn install --production
+        run: cd themes/hugo-theme-luna && npm install --production
 
       - name: Install PostCSS-CLI
         run: npm install postcss-cli -g
