@@ -20,11 +20,8 @@ jobs:
         with:
           node-version: "18.x"
 
-      - name: Install Luna Theme
-        run: cd themes/hugo-theme-luna && npm install --production
-
-      - name: Install PostCSS-CLI
-        run: npm install postcss-cli -g
+      - name: Build theme
+        run: cd themes/hugo-theme-luna && npm install postcss-cli -g && npm install --production
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
