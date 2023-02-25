@@ -20,13 +20,11 @@
             {{- end -}}
             {{- if .Site.Params.rss.enabled -}}
             <a data-no-swup href="{{- " /index.xml" | absLangURL -}}" target="_blank" class="mr-1.5 hover:text-theme">
-                <span class=" md:hidden lg:inline">{{- $.Site.Data.luna.icon.rss | safeHTML -}}</span>
-                <span>RSS</span>
+                <span>RSS | </span>
             </a>
             {{- end -}}
             {{- if .Site.Params.sitemap -}}
             <a data-no-swup href="{{- " /sitemap.xml" | absLangURL -}}" target="_blank" class="mr-1.5 hover:text-theme">
-                <span class=" md:hidden lg:inline">{{- $.Site.Data.luna.icon.sitemap | safeHTML -}}</span>
                 <span>Sitemap</span>
             </a>
             {{- end -}}
