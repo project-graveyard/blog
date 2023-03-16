@@ -1,1 +1,1 @@
-Hello there 👋. Welcome to the CodeReviewShop's blog. This is a space for articles, announcements and event notes.
+🎉🎉 New article on Friday night: "**The Key To Studying Multiple Languages**"
