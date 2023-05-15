@@ -1,7 +1,7 @@
 ---
 title: "The Key to Studying Multiple Languages"
 date: 2023-05-15T03:24:07Z
-draft: true
+draft: false
 toc: true
 featured_image: https://images.pexels.com/photos/3767411/pexels-photo-3767411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 summary: Programming languages are tools, not solutions
