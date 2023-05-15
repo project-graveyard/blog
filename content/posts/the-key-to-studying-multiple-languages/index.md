@@ -217,7 +217,7 @@ A pointer gets the address of the variable stored in memory. Everyday use cases 
 
 ### Testing
 
-There is no perfect software; else, programmers would be out of jobs. Testing can be thought of as compound error handling. Syntax and data errors are easier to spot, but testing is useful for semantic errors. A *semantic error* occurs if a program does not crash but does not perform the task it was designed for. It is an error in the meaning of an instruction.a
+There is no perfect software; else, programmers would be out of jobs. Testing can be thought of as compound error handling. Syntax and data errors are easier to spot, but testing is useful for semantic errors. A *semantic error* occurs if a program does not crash but does not perform the task it was designed for. It is an error in the meaning of an instruction.
 
 {{< quote-center >}}
 *"Program testing can be used to show the presence of bugs, but never to show their absence!"* -- **Edsger W. Dijkstra**
