@@ -13,7 +13,7 @@ tags:
 
 ## Introduction
 
-The learning curve of studying programming languages is exponential rather than linear. It is common for students to say, "I don't get all this", "Why can't everything be done in python?"; "Why do I need C/C++", or "Java is the worst". These are valid thoughts for students, but ultimately this happens because we forget or are not taught the essence of programming. Programming was invented to solve problems. If this fundamental truth is lost, we tend to see programming languages as the solution rather than a tool. Let's explore how we can understand use these tools.
+The learning curve of studying programming languages is exponential rather than linear. It is common for students to say, "I don't get all this", "Why can't everything be done in python?"; "Why do I need C/C++" or "Java is the worst". These are valid arguments for students, but ultimately this happens because we forget or are not taught the essence of programming. Programming was invented to solve problems. If this fundamental truth is lost, we tend to see programming languages as the solution rather than a tool.
 
 {{< quote-center >}}
 *"The ultimate goal of programming is to solve problems. If this fundamental truth is lost, we tend to see programming languages as a solution rather than a tool."* - **DaveSaah**
@@ -42,7 +42,7 @@ The basic concepts under programming language structure include:
 - Data structures / collection types.
 - Operators.
 - Expressions & statements.
-- Assignments & variables.
+- Variables.
 - Constants.
 - Input/output statements.
 - Conditionals.
@@ -55,9 +55,9 @@ The first thing to study about a programming language is to know what data types
 
 A data type specifies a set of values with the same operations defined for them. Let's consider an integer which is a data type. This means that any value specified as an integer has a defined set of operations that can be performed on it. An example is addition.
 
-Though operations might overlap between various data types, their behaviours are always different. For instance, addition operation on strings is defined in ***python***, but its behaviour is different from that of integers. The later joins the strings together to form a new string while the former adds two integers together to get a single result.
+Though operations might overlap between data types, their behaviours are always different. For instance, the addition operation on strings is defined in ***python***, but its behaviour differs from that of integers. The latter joins the strings to form a new string, while the former adds two integers to get a single result.
 
-Data types can either be primitive or a collection. A **primitive** is a data type that cannot be decomposed into other data types while **collection** data types can be decomposed into 'smaller' data types.
+Data types can either be primitive or a collection. A **primitive** is a data type that cannot be decomposed into other data types, while **collection** data types can be decomposed into smaller ones.
 
 Examples of primitive data types are:
 
@@ -68,9 +68,9 @@ Examples of primitive data types are:
 
 ### Data structures / collection types
 
-We earlier stated that a data type can either be primitive or a collection. Collection data types can be called data structures. A collection data type or a data structure is a collection of data types (mostly primitives) arranged in a specific order.
+We stated earlier that a data type can either be primitive or a collection. Collection data types can be called data structures. A collection data type or a data structure is a collection of data types (mostly primitives) arranged in a specific order.
 
-Most programming languages come with pre-defined collection data types. The table below give examples of pre-defined collection data types in Go and python.
+Most programming languages come with pre-defined collection data types. The table below gives examples of pre-defined collection data types in Go and Python.
 
 | Go | Python |
 | --- | --- |
@@ -79,13 +79,13 @@ Most programming languages come with pre-defined collection data types. The tabl
 | Maps | Lists |
 | Structs | Sets |
 
-A more advanced concept will be custom data structures. Examples of those include stacks, linked lists, trees, etc ... but those are outside the scope of this article.
+A more advanced concept will be custom data structures. Examples include stacks, linked lists, trees, etc., but those are outside the scope of this article.
 
-You might be asking why the need for collection data types? Well, two of the most valuable resources for a computer program are **time** and **memory**. The knowledge of data structures will allow you to choose the right data types and a way of arrangement (type of data structure) such that the data you're working with can be accessed and updated efficiently.
+Why is there a need for collection data types? Well, two of the most valuable resources for a computer program are **time** and **memory**. The knowledge of data structures will allow you to choose the suitable data types and an arrangement (type of data structure) such that the data you're working with can be accessed and updated efficiently.
 
 ### Operators
 
-If you recall, data types have a set of operations defined for them. These operations perfomed on data are represented by operators. Operators can be categorised into 4:
+If you recall, data types have a set of operations defined for them. These operations performed on data are represented by operators. Operators can be categorised into 4:
 
 1. **Arithmetic operators:** These represent arithmetic operations like addition, subtraction and multiplication.
 2. **Comparison / Relational Operators** These operators are used for comparison operations. They return a truth value. Examples include equality operations, greater than operations, etc.
@@ -134,20 +134,20 @@ An operand is a value used in a operation. For example, an addition operation is
 
 ### Expressions & Statements
 
-The next step is combining values and operators to get a certain value. This gives birth to expressions. An expression is a combination of values, operators or variables that represents a single result. Examples of expressions: `1 + 1` and `12 * 4`.
+The next step is combining values and operators to get a specific result. This gives birth to expressions. An **expression** is a combination of values, operators or variables representing a single result. Examples of expressions: `1 + 1` and `12 * 4`.
 
-In general, when code is written, it is to instruct the computer on what to do. These chunks of instructions can be separated into statements. A statement can use expressions in its construct. A statement is defined as a section of code that represents a command or an action. Examples are if-statement and loops.
+In general, when code is written, it is to instruct the computer on what to do. Programming language design ensures that the chunk of instructions is separated into statements. A statement is a section of code representing a command or an action. It can use expressions in its construct. Examples of statements are if-statements and loops.
 
-### Assignments & Variables
+### Variables
 
-At this stage we can say that a program is a series of statements. But then we have a problem. Each time we need a certain value, we need to hard code the value, or define an expression that represents it every time. Things start to get messy when you have many lines of code. In this situation, variables become very handy.
+At this stage, we can say that a program is a series of statements. But then we have a problem. Whenever we need a certain value, we must hard-code or define an expression that represents it every time. Things start to get messy when you have many lines of code. In this situation, variables become very handy.
 
-A variable is a name that represents a value. It allows values or expressions to be stored under a name that can be referenced throughout the life cycle of a computer program. Each programming language have naming conventions for variables. The default rule of thumb is that a variable name must be descriptive of the value it holds.
+A variable is a name that represents a value. It allows values or expressions to be stored under a name that can be referenced throughout the life cycle of a computer program. Each programming language has naming conventions for variables. The default rule is that a variable name must represent its value.
 
 {{< notice info >}}
 
 - Variables can change in the lifecycle of a program.
-- Values are stored in a variable via an assignment statement.
+- Values are stored in a variable via an ***assignment statement***.
 - Just like naming conventions, different programming languages have different ways of assigning values to variables.
 
 {{</ notice >}}
@@ -158,7 +158,7 @@ A constant is a special type of variable that does not change.
 
 ### Input/Output statements
 
-We will not always define values in our program. There are times (if not most of the time), inputs are taken from a user and processed for further operations. After computation, a response needs to be given. These responses are output statements.
+We will not always define values in our program. Sometimes, if not most of the time, inputs are taken from a user and processed for further operations. After computation, a response needs to be delivered through output statements.
 
 ### Conditionals
 
@@ -170,9 +170,9 @@ Using conditionals in a program can also be referred to as branching. Since they
 
 ### Loops
 
-Loops allow a block of code to run continously till a condition is met. They also fall under control flow statements. The difference between loops and conditionals is that the former runs a block of code more than once, while the later runs a block of code only once.
+Loops allow a code block to run continuously until a condition is met. They also fall under control flow statements. The difference between loops and conditionals is that the former runs a block of code more than once, while the latter runs a block of code only once.
 
-When the endpoint of a loop is known, it can be specified at the start of the loop. This type of loop is called a **for statement**. However, if the endpoint of loop is not known, but based on a condition, the loop is implemented as a **while statement**.
+When the endpoint of a loop is known, it can be specified at the start of the loop. This type of loop is called a **for statement**. However, if the endpoint of the loop is unknown but based on a condition, the loop is implemented as a **while statement**.
 
 {{< notice info >}}
 The for loop can perform the work of a while loop and vice versa. They were implemented to solve different problems in code design. Take time to explore them.
@@ -180,11 +180,11 @@ The for loop can perform the work of a while loop and vice versa. They were impl
 
 ### Functions
 
-The last concept under the basic structure of programming languages are functions. Just like in Math, a function can take an input and return a certain output. The inputs of a function are its arguments and the output of a function is its return value.
+The last concept under the basic structure of programming languages is functions. Like in Math, a function can take an input and return a specific output. The inputs of a function are its arguments, and the output of a function is its return value.
 
-Functions in programming are used for more than just input and output. Earlier we mentioned that we cannot be hardcoding values throughout our program -- things could get messy. In the same light imagine writing the same blocks of code over and over again in your program. This is known as code duplication and is strongly discouraged in software developement. Just like variables, we can group this statement under a common name. This name is the name of a function.
+Functions in programming are used for more than just input and output. Earlier, we mentioned that we cannot be hardcoding values throughout our program -- things could get messy. In the same light, imagine writing the same blocks of code repeatedly in your program. This is known as code duplication and is strongly discouraged in software development. Like variables, we can group statements under a common name (the function's name).
 
-Does it mean that we can group any series of statements as a function? No! A function group a series of statements that perform a common function. For example, validating if a person is an adult, calculating the area of polygons, etc.
+Can we group any series of statements as a function? No! A function is created because the series of statements contribute to performing a single task. For example, validating if a person is an adult, calculating the area of polygons, etc.
 
 {{< notice info >}}
 The concept of grouping blocks of code together under a common name is called **encapsulation**
@@ -201,32 +201,31 @@ The intermediate concepts under programming language structure include:
 
 ### Data streams
 
-"Data streams" might not be the best phrase to use, but I use it to refer to other means of accessing and manipulating data apart from variables. Good examples are files and databases.
+"Data streams" might not be the best phrase, but I use it to refer to other means of accessing and manipulating data apart from variables. Good examples are files and databases.
 
 ### Error handling
 
-Another intermediate concept is error handling. This is useful for handling issues with conflicting data types, type conversion and input validation.
+Another intermediate concept is error handling. This is useful for handling conflicting data types, type conversion and input validation issues.
 
 ### Pointers
 
-A pointer gets the address of variable stored in memory. Common use cases of pointers are:
+A pointer gets the address of the variable stored in memory. Everyday use cases of pointers are:
 
-- It enables programmers to manipulate and update large streams of data without repopulating the entire data in memory.
-- It allows faster access to data in memory with the use of pointer arithmetic.
+- It enables programmers to manipulate and update large data streams without repopulating the entire data in memory.
+- It allows faster access to data in memory using pointer arithmetic.
 - It enforces API consistency.
 
 ### Testing
 
-<!-- Find a quote about bugs and testing -->
-There is no perfect software, else programmers would be out of jobs. Testing can be thought of as compound error handling. Syntax and data errors are easier to spot, but testing are useful for semantic errors.
+There is no perfect software; else, programmers would be out of jobs. Testing can be thought of as compound error handling. Syntax and data errors are easier to spot, but testing is useful for semantic errors. A *semantic error* occurs if a program does not crash but does not perform the task it was designed for. It is an error in the meaning of an instruction.a
 
-{{< notice info >}}
-A semantic error occurs if a program does not crash but does not perform the task it was designed for. It is an error in the meaning of an instruction.
-{{</ notice >}}
+{{< quote-center >}}
+*"Program testing can be used to show the presence of bugs, but never to show their absence!"* -- **Edsger W. Dijkstra**
+{{</ quote-center >}}
 
 ## Language Specific Features
 
-Aside the core concepts that all programming languages share, there are some implementations that are specific to a programming language. We can call them language specific features. Some of these features are:
+Aside from the core concepts that all programming languages share, some implementations are specific to a programming language. We can call them language-specific features. Some of these features are:
 
 - Built-in functions / libraries. E.g. `print()` in Python, `System.out.println()` in Java.
 - Data structures. E.g. Lists in Python is synonymous to ArrayLists in Java.
@@ -239,7 +238,7 @@ The list above is not exhaustive. Language specific features can be found in the
 
 ### Bitwise Operations
 
-Though bitwise operations falls under the categories of operators, it is a slightly advanced concept that deals with the binary manipulation of data. It is common in low-level languages, but seldom used in modern programming languages. Nonetheless, the table below describes the common bitwise operators and their operations.
+Though bitwise operations fall under the categories of operators, it is a slightly advanced concept that deals with the binary manipulation of data. It is common in low-level languages but seldom used in modern programming languages. Nonetheless, the table below describes the standard bitwise operators and their operations.
 
 | Bitwise Operators | Operation |
 | --- | --- |
@@ -270,6 +269,6 @@ Have the layers of abstraction introduced into programming languages caused more
 
 ### The Way Forward
 
-Do we have to understand how everything works under the hood? That would be great, but it is not so practical. Of course, some programmers understand how everything works, and learning multiple languages is a breeze. However, we are all not the same. Programming in multiple languages is a skill that can be learned. Sometimes, all we need is a guide, and this article seeks to fill that gap.
+Do we have to understand how everything works under the hood? That would be great, but it is not so practical. Of course, some programmers understand how everything works, and learning multiple languages is a breeze. However, we are all not the same. Programming in multiple languages is a skill that can be learned. Sometimes, we only need a guide, and this article seeks to fill that gap.
 
 Until we meet in the next article, keep solving problems.
