@@ -22,7 +22,7 @@ posts = "/:year/:month/:day/:slug.html"
 pages = "/:slug.html"
 
 [author]
-name = "DaveSaah"
+name = "CodeReviewShop"
 
 [frontmatter]
 lastmod = [":git", "lastmod", ":fileModTime", "date", "publishDate", ":default"]
@@ -106,7 +106,6 @@ url = "/search/"
 [menu.main.params]
 icon = "eva eva-search"
 
-
 [markup.highlight]
 style = "dracula"
 guessSyntax = true
@@ -124,12 +123,12 @@ topTitle = false
 sitemap = true
 themeColor = "#077df2"
 blackAndWhite = false
+googleAnalytics = "G-WYRZQGM41V"
 headlineCounter = false
 fixedNav = false
 font = 'Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif'
 since = "2022"
 autoDarkMode = true
-qrcodeAPI = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="
 i18nlist = true
 imageZoom = true
 lazyload = true
@@ -145,7 +144,7 @@ katex = true
 backtop = true
 featuredImageHeight = "42%"
 defaultFeaturedImage = false
-author = "DaveSaah"
+author = "CodeReviewShop"
 keywords = ["Code", "Review", "Tech blog", "Programming"]
 description = "A space for articles, announcements and event notes by CodeReviewShop"
 
@@ -173,8 +172,7 @@ pjax = true
 enabled = false
 
 [params.outdatedInfoWarning]
-enabled = true
-day = 90
+enabled = false
 
 [params.share]
 twitter = true
@@ -184,7 +182,10 @@ facebook = false
 weibo = false
 
 [params.license]
-enabled = false
+enabled = true
+name = "CC BY-NC-ND 4.0"
+icon = "Cc-by-nc-nd.svg"
+url = "https://creativecommons.org/licenses/by-nc-nd/4.0"
 
 [params.github]
 # id = "DaveSaah"
@@ -192,7 +193,9 @@ minStars = 0
 ids = ["DaveSaah", "CodeReviewShop"]
 
 [params.twitter]
-enabled = false
+enabled = true
+rsshub = "https://rsshub.rssforever.com"
+id = "dave_saah"
 
 [params.bionicReading]
 enabled = true
@@ -218,6 +221,9 @@ webp = true
 [params.opengraph]
 image = "featured.png"
 
+[params.opengraph.twitter]
+cardType = "summary_large_image"
+site = "@dave_saah"
 
 [build]
 noJSConfigInAssets = true
