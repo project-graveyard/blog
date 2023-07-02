@@ -97,15 +97,6 @@ url = "/github/"
 [menu.main.params]
 icon = "eva eva-github"
 
-[[menu.main]]
-name = "Search"
-weight = 999
-identifier = "search"
-url = "/search/"
-
-[menu.main.params]
-icon = "eva eva-search"
-
 [markup.highlight]
 style = "dracula"
 guessSyntax = true
@@ -134,7 +125,6 @@ imageZoom = true
 lazyload = true
 googleTranslate = false
 pangu = true
-search = true
 lastmod = true
 readingTime = true
 wordCount = false
@@ -188,9 +178,8 @@ icon = "Cc-by-nc-nd.svg"
 url = "https://creativecommons.org/licenses/by-nc-nd/4.0"
 
 [params.github]
-# id = "DaveSaah"
 minStars = 0
-ids = ["DaveSaah", "CodeReviewShop"]
+ids = ["CodeReviewShop", "DaveSaah"]
 
 [params.twitter]
 enabled = true
