@@ -4,6 +4,7 @@ about: Suggest an article
 title: Article Request
 labels: suggest article
 assignees: DaveSaah
+projects: Blog Post Schedule
 
 ---
 
