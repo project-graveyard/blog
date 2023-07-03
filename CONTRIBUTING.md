@@ -17,6 +17,7 @@ CodeReviewShop's mission is to help students grow with a solid foundation of the
 ## Add New Articles
 
 - To add new articles, create an [issue](https://github.com/CodeReviewShop/blog/issues/new/choose) using the **Add New Article** template.
+- Refer to [Create New Articles](https://github.com/CodeReviewShop/blog/wiki/03-Create-New-Articles) in the wiki for a detailed guide on how to create articles in the project.
 
 ## Other Ways To Contribute
 
