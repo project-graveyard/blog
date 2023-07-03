@@ -4,10 +4,11 @@ about: Write an article for codereviewblog.
 title: Add New Article
 labels: new article
 assignees: ''
+projects: Blog Post Schedule
 
 ---
 
-*What is the title of the article?**
+**What is the title of the article?**
 
 
 **List the key points the article would address.**
