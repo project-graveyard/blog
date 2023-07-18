@@ -181,11 +181,6 @@ url = "https://creativecommons.org/licenses/by-nc-nd/4.0"
 minStars = 0
 ids = ["CodeReviewShop", "DaveSaah"]
 
-[params.twitter]
-enabled = true
-rsshub = "https://rsshub.rssforever.com"
-id = "dave_saah"
-
 [params.bionicReading]
 enabled = true
 autoBionic = false
@@ -212,7 +207,7 @@ image = "featured.png"
 
 [params.opengraph.twitter]
 cardType = "summary_large_image"
-site = "@dave_saah"
+site = "@codereviewshop"
 
 [build]
 noJSConfigInAssets = true

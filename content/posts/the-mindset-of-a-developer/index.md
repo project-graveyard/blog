@@ -37,7 +37,7 @@ _"Never say you **CAN'T** do something. Instead of I can't -- always ask, **HOW 
 
 It is not uncommon to hear people talking about hard work and giving it so much credit. Hard work is fine and all, but if all you do is work hard, you'll become a mechanical being, not a human being. In the same vein, if all you have is passion without work, that will not yield better results either. We need both sides of the **yin** and **yang**.
 
-{{< youtube XEorvtt7bXs >}}
+{{< youtube PznJqxon4zE>}}
 
 {{< align center "**Steve Jobs talks about passion**" >}}
 
