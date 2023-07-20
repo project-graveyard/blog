@@ -27,3 +27,12 @@ If you like the project, but just don't have time to contribute, that's fine. Th
 - Tweet about it.
 - Refer this project in your project's README.
 - Mention the project at local meetups and tell your friends/colleagues.
+
+## A Note About Time/Technicalities
+
+If you are a very busy individual or may not have the time to clone the project and write an article for CodeReviewShop's community, there's still a way to share your experience with others. The content of the article you like to write can be done directly on github in the issues comment section. You focus on the content, we handle the technicalities. Thank you for investing your time with us.
+
+---
+
+CodeReviewShop,<br>
+Better software is built together.
