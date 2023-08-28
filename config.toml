@@ -46,11 +46,6 @@ anonymizeIP = true
 [privacy.youtube]
 privacyEnhanced = true
 
-[sitemap]
-changefreq = "weekly"
-priority = 0.5
-filename = "sitemap.xml"
-
 
 [[menu.main]]
 name = "Home"
@@ -111,7 +106,7 @@ unsafe = true
 [params]
 publicCDN = ""
 topTitle = false
-sitemap = true
+sitemap = false
 themeColor = "#077df2"
 blackAndWhite = false
 googleAnalytics = "G-WYRZQGM41V"
@@ -146,8 +141,7 @@ file = "Announcement.md"
 enabled = false
 
 [params.rss]
-enabled = true
-fullText = true
+enabled = false
 
 [params.console]
 enabled = true
@@ -179,7 +173,7 @@ url = "https://creativecommons.org/licenses/by-nc-nd/4.0"
 
 [params.github]
 minStars = 0
-ids = ["CodeReviewShop", "DaveSaah"]
+id = "CodeReviewShop"
 
 [params.bionicReading]
 enabled = true
