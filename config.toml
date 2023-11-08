@@ -46,6 +46,11 @@ anonymizeIP = true
 [privacy.youtube]
 privacyEnhanced = true
 
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
+
 
 [[menu.main]]
 name = "Home"
@@ -106,7 +111,7 @@ unsafe = true
 [params]
 publicCDN = ""
 topTitle = false
-sitemap = false
+sitemap = true
 themeColor = "#077df2"
 blackAndWhite = false
 googleAnalytics = "G-WYRZQGM41V"
@@ -141,7 +146,8 @@ file = "Announcement.md"
 enabled = false
 
 [params.rss]
-enabled = false
+enabled = true
+fullText = true
 
 [params.console]
 enabled = true
@@ -173,7 +179,12 @@ url = "https://creativecommons.org/licenses/by-nc-nd/4.0"
 
 [params.github]
 minStars = 0
-id = "CodeReviewShop"
+ids = ["CodeReviewShop", "DaveSaah"]
+
+[params.twitter]
+enabled = true
+rsshub = "https://rsshub.rssforever.com"
+id = "dave_saah"
 
 [params.bionicReading]
 enabled = true
@@ -201,7 +212,7 @@ image = "featured.png"
 
 [params.opengraph.twitter]
 cardType = "summary_large_image"
-site = "@codereviewshop"
+site = "@dave_saah"
 
 [build]
 noJSConfigInAssets = true
