@@ -9,3 +9,5 @@ layout: links
 {{< link url="https://davesaah.hashnode.dev" desc="Find more general articles" image="hashnode.png" title="Hashnode" >}}
 
 {{< link url="https://linkedin.com/company/codereviewshop" desc="Let's get connected" image="linkedin.png" title="LinkedIn" >}}
+
+{{< link url="https://codereviewshop.web.app" image="codereview-logo.png" title="CodeReviewShop" desc="Let's solve problems together" >}}

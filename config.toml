@@ -111,7 +111,7 @@ unsafe = true
 [params]
 publicCDN = ""
 topTitle = false
-sitemap = true
+sitemap = false
 themeColor = "#077df2"
 blackAndWhite = false
 googleAnalytics = "G-WYRZQGM41V"
@@ -146,7 +146,7 @@ file = "Announcement.md"
 enabled = false
 
 [params.rss]
-enabled = true
+enabled = false
 fullText = true
 
 [params.console]
