@@ -173,7 +173,7 @@ url = "https://creativecommons.org/licenses/by-nc-nd/4.0"
 
 [params.github]
 minStars = 0
-id = "CodeReviewShop"
+id = ["CodeReviewShop", "DaveSaah"]
 
 [params.bionicReading]
 enabled = true
